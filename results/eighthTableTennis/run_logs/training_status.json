@@ -1,0 +1,47 @@
+{
+    "TableTennis": {
+        "checkpoints": [
+            {
+                "steps": 499988,
+                "file_path": "results\\eighthTableTennis\\TableTennis\\TableTennis-499988.onnx",
+                "reward": 0.1310503764700988,
+                "creation_time": 1640357915.216964,
+                "auxillary_file_paths": [
+                    "results\\eighthTableTennis\\TableTennis\\TableTennis-499988.pt"
+                ]
+            },
+            {
+                "steps": 999987,
+                "file_path": "results\\eighthTableTennis\\TableTennis\\TableTennis-999987.onnx",
+                "reward": 0.21379060431575161,
+                "creation_time": 1640358805.229409,
+                "auxillary_file_paths": [
+                    "results\\eighthTableTennis\\TableTennis\\TableTennis-999987.pt"
+                ]
+            },
+            {
+                "steps": 1136425,
+                "file_path": "results\\eighthTableTennis\\TableTennis\\TableTennis-1136425.onnx",
+                "reward": 0.14511775002813923,
+                "creation_time": 1640359024.9200118,
+                "auxillary_file_paths": [
+                    "results\\eighthTableTennis\\TableTennis\\TableTennis-1136425.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1136425,
+            "file_path": "results\\eighthTableTennis\\TableTennis.onnx",
+            "reward": 0.14511775002813923,
+            "creation_time": 1640359024.9200118,
+            "auxillary_file_paths": [
+                "results\\eighthTableTennis\\TableTennis\\TableTennis-1136425.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.2+cu111"
+    }
+}
