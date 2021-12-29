@@ -102,7 +102,7 @@ mlagents-learn ./TableTennis.yaml --run-id=(自分で作成したID) --torch-dev
 ```
 🚩
 `run-id`は自分で作成し、実際に学習する本体があるMLAgentsのパスのconfig以下に、その名でファイルが生成されます。
-（このプロジェクトにある[config](/config)は、そのファイルを引っ張ってきた）
+（このプロジェクトにある[results](/results)は、そのファイルを引っ張ってきた）
 
 ❗ 各自でMLAgentsを実機に導入し、MLAgentsのパスを通しておかないと学習できません
 
