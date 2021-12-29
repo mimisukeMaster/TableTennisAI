@@ -23,7 +23,7 @@ MLAgentsを使って、卓球をするAIを作ってみたプロジェクト
 
 > #### <h4 id=Description> 概要</h4>
 卓球台を挟んだ2人のAgentで１グループとして構成しています。学習の方向性としては、攻撃を仕掛けるというよりも、より長くラリーが続くように学習させます。
-以下の [**Observation**](#Observation), [**Action**](#Action), [**Reward**](#Reward)の設定は、すべて[Agentのスクリプト](/TableTennisAI/Assets/Scripts/TableTennisAgent.cs)にXMLコメントとして明記されています。
+以下の [**Observation**](#Observation), [**Action**](#Action), [**Reward**](#Reward)の設定は、すべて[Agentのスクリプト](/Assets/Scripts/TableTennisAgent.cs)にXMLコメントとして明記されています。
 それに加え、学習の改善履歴やID別の変更点が書かれています。(かなり長いので、障るなら削除して構いません。)
 
 ##
@@ -102,7 +102,7 @@ mlagents-learn ./TableTennis.yaml --run-id=(自分で作成したID) --torch-dev
 ```
 🚩
 `run-id`は自分で作成し、実際に学習する本体があるMLAgentsのパスのconfig以下に、その名でファイルが生成されます。
-（このプロジェクトにある[config](/TableTennis/config)は、そのファイルを引っ張ってきた）
+（このプロジェクトにある[config](/config)は、そのファイルを引っ張ってきた）
 
 ❗ 各自でMLAgentsを実機に導入し、MLAgentsのパスを通しておかないと学習できません
 
