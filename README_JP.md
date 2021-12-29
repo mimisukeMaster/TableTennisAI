@@ -86,13 +86,13 @@ MLAgentsを使って、卓球をするAIを作ってみたプロジェクト
 
 ### <h3 id=AboutModel>モデルについて</h3>
 > #### <h4 id=Yaml> yamlファイル設定</h4>
-学習のステップ数や処理方法などを記した[`TableTennis.yaml`](/TableTennisAI/Tabletennis.yaml)を見れば分かりますが、
+学習のステップ数や処理方法などを記した[`TableTennis.yaml`](/Tabletennis.yaml)を見れば分かりますが、
 - 余裕を持たせて`maxstep: 1000000`
 にしてあります。
 
 > #### <h4 id=LearnCommand>[学習実行時のコマンド]</h4>
 学習を実行させる際は、
-- `cd`で[`TableTennis.yaml`](/TableTennisAI/Tabletennis.yaml)があるパスに以下のコマンドで移動。
+- `cd`で[`TableTennis.yaml`](/Tabletennis.yaml)があるパスに以下のコマンドで移動。
 ```
 cd (リポジトリがあるパス)~~/TabletennisAI
 ```
