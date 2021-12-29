@@ -7,6 +7,13 @@ version: **Unity2019.4.20f1**
 A project that tried creating an AI that plays table tennis using MLAgents.
 ### ⚠️AI has not been completed in this project
 
+
+
+https://user-images.githubusercontent.com/81568941/147680661-54ec2a3a-b351-4daf-96b5-d5753d98db52.mp4
+
+
+
+
 ---
 目次
 > - [About Learning](#AboutLearning)
