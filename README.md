@@ -86,3 +86,30 @@ Six types of actions, all handled by float values.
 - When the ball falls
 
 - When the ball is caught in a net
+
+
+### <h3 id=AboutModel>About Models</h3>
+> #### <h4 id=Yaml> .yaml file setting</h4>
+If you look at [`TableTennis.yaml`](/TableTennis.yaml), which describes the number of learning steps and how to handle them, you will see..
+- We have set the `maxstep: 1000000` to allow for more room.
+
+> #### <h4 id=LearnCommand>Commands for learning</h4>
+When you run the learning, 
+- Go to the path where [`TableTennis.yaml`](/TableTennis.yaml) is located with the following command.
+```
+cd (The path where the repository is located)~~/TabletennisAI
+```
+- Start learning with the following command after passing the Path of mlagents.
+```
+mlagents-learn ./TableTennis.yaml --run-id=(ID created by you) --torch-device cuda
+```
+🚩
+You can create your own `run-id` and files with that name will be created under config of Path of ML-Agents with actual learning body
+（The [results](/results) in this project are the files that were pulled from there）
+
+❗ You need to install MLAgents on your machine and go through the path of MLAgents to learn.
+
+**I've tweeted [here](https://twitter.com/mimisukeMaster/status/1461321187858944004) about how to install ML-Agents before, so please refer to it!**
+
+🚩
+`--torch-device cuda`is needed for learning on GPU, so you don't have to write.
