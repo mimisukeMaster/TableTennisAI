@@ -1,0 +1,56 @@
+{
+    "TableTennis": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results\\thirdTableTennis\\TableTennis\\TableTennis-499998.onnx",
+                "reward": 0.43875790105595297,
+                "creation_time": 1639837874.093989,
+                "auxillary_file_paths": [
+                    "results\\thirdTableTennis\\TableTennis\\TableTennis-499998.pt"
+                ]
+            },
+            {
+                "steps": 999990,
+                "file_path": "results\\thirdTableTennis\\TableTennis\\TableTennis-999990.onnx",
+                "reward": 0.5001061910117791,
+                "creation_time": 1639838743.3125818,
+                "auxillary_file_paths": [
+                    "results\\thirdTableTennis\\TableTennis\\TableTennis-999990.pt"
+                ]
+            },
+            {
+                "steps": 1499993,
+                "file_path": "results\\thirdTableTennis\\TableTennis\\TableTennis-1499993.onnx",
+                "reward": 0.47020124105768185,
+                "creation_time": 1639839620.5147333,
+                "auxillary_file_paths": [
+                    "results\\thirdTableTennis\\TableTennis\\TableTennis-1499993.pt"
+                ]
+            },
+            {
+                "steps": 1867963,
+                "file_path": "results\\thirdTableTennis\\TableTennis\\TableTennis-1867963.onnx",
+                "reward": 0.48749291375436393,
+                "creation_time": 1639840286.320822,
+                "auxillary_file_paths": [
+                    "results\\thirdTableTennis\\TableTennis\\TableTennis-1867963.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1867963,
+            "file_path": "results\\thirdTableTennis\\TableTennis.onnx",
+            "reward": 0.48749291375436393,
+            "creation_time": 1639840286.320822,
+            "auxillary_file_paths": [
+                "results\\thirdTableTennis\\TableTennis\\TableTennis-1867963.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.2+cu111"
+    }
+}

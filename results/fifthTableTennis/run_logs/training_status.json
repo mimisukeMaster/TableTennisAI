@@ -1,0 +1,65 @@
+{
+    "TableTennis": {
+        "checkpoints": [
+            {
+                "steps": 1499999,
+                "file_path": "results\\fifthTableTennis\\TableTennis\\TableTennis-1499999.onnx",
+                "reward": 0.4885756118811922,
+                "creation_time": 1640093581.1461217,
+                "auxillary_file_paths": [
+                    "results\\fifthTableTennis\\TableTennis\\TableTennis-1499999.pt"
+                ]
+            },
+            {
+                "steps": 1999988,
+                "file_path": "results\\fifthTableTennis\\TableTennis\\TableTennis-1999988.onnx",
+                "reward": 0.46912488007227815,
+                "creation_time": 1640094273.6397052,
+                "auxillary_file_paths": [
+                    "results\\fifthTableTennis\\TableTennis\\TableTennis-1999988.pt"
+                ]
+            },
+            {
+                "steps": 2239020,
+                "file_path": "results\\fifthTableTennis\\TableTennis\\TableTennis-2239020.onnx",
+                "reward": 0.4862757096068746,
+                "creation_time": 1640094613.0842166,
+                "auxillary_file_paths": [
+                    "results\\fifthTableTennis\\TableTennis\\TableTennis-2239020.pt"
+                ]
+            },
+            {
+                "steps": 2499995,
+                "file_path": "results\\fifthTableTennis\\TableTennis\\TableTennis-2499995.onnx",
+                "reward": 0.5035146128760719,
+                "creation_time": 1640095646.2515614,
+                "auxillary_file_paths": [
+                    "results\\fifthTableTennis\\TableTennis\\TableTennis-2499995.pt"
+                ]
+            },
+            {
+                "steps": 2886378,
+                "file_path": "results\\fifthTableTennis\\TableTennis\\TableTennis-2886378.onnx",
+                "reward": 0.5009146024327211,
+                "creation_time": 1640096178.832469,
+                "auxillary_file_paths": [
+                    "results\\fifthTableTennis\\TableTennis\\TableTennis-2886378.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2886378,
+            "file_path": "results\\fifthTableTennis\\TableTennis.onnx",
+            "reward": 0.5009146024327211,
+            "creation_time": 1640096178.832469,
+            "auxillary_file_paths": [
+                "results\\fifthTableTennis\\TableTennis\\TableTennis-2886378.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.2+cu111"
+    }
+}

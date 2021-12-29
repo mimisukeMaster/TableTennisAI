@@ -1,0 +1,56 @@
+{
+    "TableTennis": {
+        "checkpoints": [
+            {
+                "steps": 55669,
+                "file_path": "results\\fourthTableTennis\\TableTennis\\TableTennis-55669.onnx",
+                "reward": 0.06356516947116082,
+                "creation_time": 1639904988.8203182,
+                "auxillary_file_paths": [
+                    "results\\fourthTableTennis\\TableTennis\\TableTennis-55669.pt"
+                ]
+            },
+            {
+                "steps": 499993,
+                "file_path": "results\\fourthTableTennis\\TableTennis\\TableTennis-499993.onnx",
+                "reward": 0.3995158908670526,
+                "creation_time": 1639905696.4913602,
+                "auxillary_file_paths": [
+                    "results\\fourthTableTennis\\TableTennis\\TableTennis-499993.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results\\fourthTableTennis\\TableTennis\\TableTennis-999999.onnx",
+                "reward": 0.45796104902181994,
+                "creation_time": 1639906447.2872598,
+                "auxillary_file_paths": [
+                    "results\\fourthTableTennis\\TableTennis\\TableTennis-999999.pt"
+                ]
+            },
+            {
+                "steps": 1313371,
+                "file_path": "results\\fourthTableTennis\\TableTennis\\TableTennis-1313371.onnx",
+                "reward": null,
+                "creation_time": 1639906894.2841594,
+                "auxillary_file_paths": [
+                    "results\\fourthTableTennis\\TableTennis\\TableTennis-1313371.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1313371,
+            "file_path": "results\\fourthTableTennis\\TableTennis.onnx",
+            "reward": null,
+            "creation_time": 1639906894.2841594,
+            "auxillary_file_paths": [
+                "results\\fourthTableTennis\\TableTennis\\TableTennis-1313371.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.2+cu111"
+    }
+}
