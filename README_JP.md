@@ -74,7 +74,7 @@ MLAgentsを使って、卓球をするAIを作ってみたプロジェクト
 
 ##
 > #### <h4 id=EpisodeEnd> Episode終了条件</h4>
-**Episodeが終了する条件は**
+**Episodeが終了する条件**
 - 打てない状態で打ったとき(2回連続で打ったとき)
 
 - 自分の陣地で球をバウンドさせたとき
@@ -82,3 +82,31 @@ MLAgentsを使って、卓球をするAIを作ってみたプロジェクト
 - 球が落ちた時
 
 - 球がネットに掛かったとき
+
+
+### <h3 id=AboutModel>モデルについて</h3>
+> #### <h4 id=Yaml> yamlファイル設定</h4>
+学習のステップ数や処理方法などを記した[`TableTennis.yaml`](/TableTennisAI/Tabletennis.yaml)を見れば分かりますが、
+- 余裕を持たせて`maxstep: 1000000`
+にしてあります。
+
+> #### <h4 id=LearnCommand>[学習実行時のコマンド]</h4>
+学習を実行させる際は、
+- `cd`で[`TableTennis.yaml`](/TableTennisAI/Tabletennis.yaml)があるパスに以下のコマンドで移動。
+```
+cd (リポジトリがあるパス)~~/TabletennisAI
+```
+- mlagentsのパスを通したうえで、以下のコマンドで学習開始
+```
+mlagents-learn ./TableTennis.yaml --run-id=(自分で作成したID) --torch-device cuda
+```
+🚩
+`run-id`は自分で作成し、実際に学習する本体があるMLAgentsのパスのconfig以下に、その名でファイルが生成されます。
+（このプロジェクトにある[config](/TableTennis/config)は、そのファイルを引っ張ってきた）
+
+❗ 各自でMLAgentsを実機に導入し、MLAgentsのパスを通しておかないと学習できません
+
+**ML-Agents導入方法については以前に[こちらでツイート](https://twitter.com/mimisukeMaster/status/1461321187858944004)したことがあるので、参考にしてください**
+
+🚩
+`--trorch-device cuda` は、GPUで学習するときに必要なものなので、なくても構いません
