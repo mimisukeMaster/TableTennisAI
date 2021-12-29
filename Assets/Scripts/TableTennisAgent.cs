@@ -305,17 +305,6 @@ public class TableTennisAgent : Agent
     /// <param name="sensor">The vector sensor</param>
     public override void CollectObservations(VectorSensor sensor)
     {
-        /*
-        // Observe relative transform of the Agent and table (3 observations)
-        sensor.AddObservation(Racket.position - Table.position);
-
-        // Observe relative transform of the ball and table (3 observations)
-        sensor.AddObservation(Ball.position - Table.position);
-
-        // Observe relative transorm of the Agent and opponent's area (3 observations)
-        sensor.AddObservation(Racket.position - opponentArea.transform.position);
-
-        */
         // Observe Agent's position (3 observations)
         sensor.AddObservation(Racket.position);
 
