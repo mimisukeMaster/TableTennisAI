@@ -49,5 +49,40 @@ There are 6 types of observations and Observation is counted by float numbers, s
 
 
 > #### <h4 id=Action>Action</h4>
+**There are two main patterns of behavior that Agent can take**
+- Moving
+  - Move by `Rigidbody.position`  
+  The area where you can move is specified by moveArea, and it will be adjusted so that you can't exceed that area.
+- Changing the angle
+  - `Transform.Rotate(Vector axis, float angle)` to change the angle. X,Y,Z axis.
+
+Six types of actions, all handled by float values.
+
+
 > #### <h4 id=Reward>Reward</h4>
+#### positive rewards
+|Conditions|Value|Note|
+|:---:|:---|:---|
+|The ball hits the racket|0.3|Praise for hitting the ball.|
+|The ball bounces on the opponent's area|0.15|Give the Agent credit for reaching over there.|
+|Time lapse (per Frame)|1 / max steps(5000)|Try to keep the rally going for as long as possible.|
+|From the time the ball is hit until it bounces the opponent's area (per Frame)|The closer the distance between the ball and its area, the more rewards Agents gets.|make sure the Agent gets it.|
+
+#### negative rewards
+|Conditions|Value|Note|
+|:---:|:---|:---|
+|Fall to the ground|-0.4|End the episode|
+|Be caught in a net|-0.5|End the episode|
+|Not moving between 2 frames (per Frame)|-0.05|get the Agent to move.|
+|Move out of range (per frame)|-0.02|make sure the Agent doesn't go out of range.|
+
+##
 > #### <h4 id=EpisodeEnd>Episode end condition</h4>
+**Conditions for Episode end**
+- When the Agent hits the ball when you can't hit it (twice in a row)
+
+- When the Agent bounces a ball in your own territory
+
+- When the ball falls
+
+- When the ball is caught in a net
