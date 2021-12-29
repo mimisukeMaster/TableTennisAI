@@ -2,7 +2,7 @@
 
 version: **Unity2019.4.20f1**
 
-[日本語版](/TableTennisAI/README_JP)
+[日本語版](/TableTennisAI/README_JP.md)
 
 A project that tried creating an AI that plays table tennis using MLAgents.
 ### ⚠️AI has not been completed in this project
