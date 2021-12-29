@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/81568941/147680661-54ec2a3a-b351-4daf-
 
 
 ---
-目次
+Contents
 > - [About Learning](#AboutLearning)
 >   - [Overview](#Description)
 >   - [Observation](#Observation)
