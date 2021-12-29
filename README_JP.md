@@ -109,4 +109,4 @@ mlagents-learn ./TableTennis.yaml --run-id=(自分で作成したID) --torch-dev
 **ML-Agents導入方法については以前に[こちらでツイート](https://twitter.com/mimisukeMaster/status/1461321187858944004)したことがあるので、参考にしてください**
 
 🚩
-`--trorch-device cuda` は、GPUで学習するときに必要なものなので、なくても構いません
+`--torch-device cuda` は、GPUで学習するときに必要なものなので、なくても構いません
