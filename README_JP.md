@@ -90,7 +90,7 @@ MLAgentsを使って、卓球をするAIを作ってみたプロジェクト
 - 余裕を持たせて`maxstep: 1000000`
 にしてあります。
 
-> #### <h4 id=LearnCommand>[学習実行時のコマンド]</h4>
+> #### <h4 id=LearnCommand>学習実行時のコマンド</h4>
 学習を実行させる際は、
 - `cd`で[`TableTennis.yaml`](/TableTennis.yaml)があるパスに以下のコマンドで移動。
 ```
